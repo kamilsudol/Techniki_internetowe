@@ -1,0 +1,72 @@
+uczelnia { 
+    display: block;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+
+}
+wydzial:nth-child(even) { 
+    margin: 5px;
+    display: block;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    background-color:#ADD8E6;
+}
+wydzial:nth-child(odd) { 
+    margin: 5px;
+    display: block;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    background-color:#90EE90;
+}
+nazwa { 
+    font-weight:bold;
+    font-size: 20px;
+}
+kierunek { 
+    display: block;
+    border-style: solid;
+    border-color: blue;
+    margin: 8px;
+    text-align: center;
+    background-color:#FF69B4;
+}
+kier_nazw {
+    font-weight:bold;
+    
+}
+studenci:nth-child(even) {
+    text-align: left;
+    margin: 5px;
+    display: block;
+    border-style: solid;
+    border-color: grey;
+    background-color: yellow;
+    line-height: 1.6;
+    text-indent: 5px;
+}
+
+studenci:nth-child(odd) {
+    text-align: left;
+    margin: 5px;
+    display: block;
+    border-style: solid;
+    border-color: grey;
+    background-color: #DCDCDC;
+    line-height: 1.6;
+    text-indent: 5px;
+}
+
+imie { 
+    color: green;
+}
+nazwisko { 
+    text-decoration: underline;
+    color:red;
+}
+indeks{
+    font-style:italic;
+    color:blue;
+}

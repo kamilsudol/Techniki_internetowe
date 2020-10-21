@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="uczelnia">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="wydzial" minOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="wydzial">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nazwa" type="xsd:string"/>
+        <xsd:element ref="kierunek"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="kierunek">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="studenci" maxOccurs="3"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="studenci">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="imie" type="xsd:string" maxOccurs="2"/>
+        <xsd:element name="nazwisko" type="xsd:string"/>
+        <!--<xsd:element name="indeks" type="xsd:string"/>-->
+            <xsd:element name="indeks">
+            <xsd:simpleType>
+            <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="100"/>
+            <xsd:maxInclusive value="400"/>
+            </xsd:restriction>
+            </xsd:simpleType>
+            </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

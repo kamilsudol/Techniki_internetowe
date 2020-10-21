@@ -1,0 +1,32 @@
+article{
+    text-align: center;
+}
+h3{
+    border-style: double;
+    border-color: crimson;
+}
+.uklad_strony{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px;
+}
+table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: darkblue;
+}
+thead{
+    background-color: cyan;
+}
+thead tr:not(:first-child){
+    background-color: #b8a9c9;
+}
+tbody tr:nth-child(even){
+    background-color: #82b74b;
+}
+tfoot{
+    background-color: #b8a9c9;
+}
+tfoot tr:not(:first-child){
+    background-color: #f2e394;
+}
