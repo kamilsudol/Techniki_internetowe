@@ -1,0 +1,39 @@
+</head>
+<title>Zadanie AJAX</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="ajax.js" type="text/javascript"></script>
+<body>
+    <fieldset style="display:block">
+        <form>
+            <label><input type="button" value="Dodaj figure" onclick="Add()"/> </label>
+            <label> <input type="button" value="Lista figur" onclick="Records()" /></label>
+            <br>
+        </form>
+    </fieldset>
+    <fieldset id="formularz" style="display:none"> <legend>Parametry figury</legend> 
+            <form name="f1">
+                <fieldset class="pole">
+                    <label>Nazwa figury</label> 
+                    <input type="text" name="data1"><br>
+                    <label>Liczba wierzchołków &lt;3,5&gt;</label> 
+                    <input type="number" name="data2"><br><br>
+                    <label>Współrzędne wierzchołków</label><br><br>
+                    <label>Współrzędna X</label> <label>Współrzędna Y</label><br><br>
+                    <label><input type="number" name="x1"> <input type="number" name="y1"></label><br><br>
+                    <label><input type="number" name="x2"> <input type="number" name="y2"></label><br><br>
+                    <label><input type="number" name="x3"> <input type="number" name="y3"></label><br><br>
+                    <label><input type="number" name="x4"> <input type="number" name="y4"></label><br><br>
+                    <label><input type="number" name="x5"> <input type="number" name="y5"></label><br><br>
+                </fieldset><br>
+                <div class="przycisk">
+                    <input type="submit" value="Wykonaj" onclick="Submit(); return false;"> 
+                </div>
+            </form> 
+    </fieldset><br>
+    <div id="baza_rekordow" style="display: none;"></div><br>
+    <fieldset class="rysunki">
+        <canvas width="800" height="400" id="obszar1"></canvas>
+    </fieldset><br>
+</body> 
+</html>

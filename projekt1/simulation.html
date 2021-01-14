@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>SUDOL TI PROJEKT 1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona domowa</a>
+            <a href="scripts.js">Dokumentacja użytego kodu</a>
+            <a href="simulation.html">Projekt</a>
+        </nav>
+    </header><br>
+    <fieldset id="instrukcja">
+        <article>
+            <h4>Instrukcja:</h4>
+            <div id="opisShow"><input type="button" value="Pokaż opis" onclick="DescriptionShow()"></div>
+        </article>
+    </fieldset><br>
+    <fieldset id="formularz"> 
+            <form name="f1">
+                <fieldset class="pole">
+                    <label>Ustaw kierunek rzutu</label> <br>
+                    <input type="range" id="directionSlidID" name="directionSlid" min="0" max="628" value="0" onclick="directionSlidUpdate()"><br>
+                    <label>Ustaw prędkość początkową ruchu</label> <br>
+                    <input type="range" id="velocitySlidID" name="velocitySlid" min="0" max="100" value="50" onclick="velocitySlidUpdate()"><br>
+                    <label>Liczba kroków ruchu (opcjonalnie)</label> <br>
+                    <input type="number" id="limitIterID" name="limitIter" value="1000" onclick="limitIterUpdate(); return false;"><br><br>
+                    <div class="selection">
+                        <label>Ustaw typ przeszkód</label> <br>
+                        <select name="przeszkody" id="przeszkodySelect" onchange="przeszkodySelectUpdate()">
+                            <option value="1">Wolna przestrzeń</option>
+                            <option value="2">Pudełko</option>
+                            <option value="3">Słup po prawej</option>
+                            <option value="4">Słup po lewej</option>
+                            <option value="5">Słup po obu stronach</option>
+                            <option value="6">Pudełko z oba słupami</option>
+                        </select>
+                    </div><br>
+                </fieldset><br>
+                <div class="przycisk1">
+                    <input type="button" value="Start" onclick="SubmitWrapper(); return false;"> 
+                </div><br>
+                <div class="przycisk2">
+                    <input type="button" value="Stop" onclick="Stop()"> <br>
+                </div><br>
+                <div class="przycisk3">
+                    <input type="button" value="Reset" onclick="Reset()"> <br>
+                </div><br>
+                <div class="przycisk4" id="muteButton">
+                    <input type="button" value="Wycisz" onclick="Mute()"> <br>
+                </div>
+            </form> 
+    </fieldset><br>
+    <fieldset class="rysunki">
+        <canvas id="obszar1" onclick="ChangePos(event)"></canvas>
+    </fieldset><br>
+    <script src="scripts.js"></script>
+</body>
+</html>

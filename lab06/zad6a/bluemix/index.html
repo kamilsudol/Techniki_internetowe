@@ -1,0 +1,36 @@
+</head>
+    <title>Zad 6a</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="baza.css">
+    <script src="ajax6a.js" type="text/javascript"></script>
+    <body>
+        <fieldset style="display:block"> <legend>Książki</legend> 
+            <form>
+                <table>
+                    <tr>
+                        <td><input type="button" value="Dodaj rekord" onclick="Add()" /></td>
+                        <td><input type="button" value="Lista rekordów" onclick="Records()" /></td>
+                    </tr>
+                </table>
+                <br>
+            </form>
+        </fieldset>
+        <fieldset id="formularz" style="display:none"> 
+                <form name="f1">
+                    <fieldset class="pole">
+                        <label>Tytuł</label> 
+                            <input type="text" name="data1"><br>
+                        <label>Autor</label> 
+                            <input type="text" name="data2">
+                    </fieldset><br>
+                    <div class="przycisk">
+                        <input type="submit" value="Wyślij" onclick="Submit(); return false;"> 
+                    </div>
+                </form> 
+        </fieldset>
+        <div id="baza_rekordow">
+    
+        </div>
+    </body> 
+</html>

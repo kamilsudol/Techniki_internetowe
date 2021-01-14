@@ -1,0 +1,6 @@
+applications:
+- buildpack: python_buildpack
+  name: sudolTI2020-zad05
+  memory: 64MB
+  disk_quota: 256M  
+  command: python server.py

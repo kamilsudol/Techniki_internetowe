@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Zad1</title>
+<meta charset="utf-8">
+<script src='z1_skrypt1.js'></script>
+<script src='z1_skrypt2.js'></script>
+</head>
+    <body>
+        <form name="form1">
+        <p>Imię: (*pole wymagane)</p>
+        <input type="text" size="20" name="pole1" /><br/>
+        <p>Nazwisko: (*pole wymagane)</p>
+        <input type="text" size="20" name="pole2" /><br/>
+        <p>Adres e-mail: (*pole wymagane)</p>
+        <input type="text" size="20" name="pole3" /><br/>
+        <p>Rok studiów: (*pole wymagane)</p>
+        <select name="pole4">
+            <option value="0">Wybierz rok</option>
+            <option value="1">Rok 1</option>
+            <option value="2">Rok 2</option>
+            <option value="3">Rok 3</option>
+        </select></br>
+        <p>Uwagi: (*pole niewymagane)</p>
+        <textarea name="pole5" rows="3" cols="25"></textarea><br/>
+        <input type="button" name="B1" value="Submit" onclick="validate()"/>
+        </form>
+    </body>
+</html>

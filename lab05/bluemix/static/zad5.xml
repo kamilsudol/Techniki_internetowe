@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/css" href="main.css"?>-->
+<?xml-stylesheet type="text/xsl" href="/home/vcap/app/static/zad5.xsl"?>
+<uczelnia>
+  <wydzial>
+    <nazwa>FiIS</nazwa>
+    <kierunek>
+      <kier_nazw>Informatyka Stosowana</kier_nazw>
+      <studenci>
+        <imie>Kamil </imie>
+        <nazwisko>Sudol </nazwisko>
+        <indeks>101</indeks>
+      </studenci>
+      <studenci>
+        <imie>Arek </imie>
+        <nazwisko>Nowak </nazwisko>
+        <indeks>213</indeks>
+      </studenci>
+    </kierunek>
+    <kierunek>
+      <kier_nazw>Fizyka Techniczna</kier_nazw>
+      <studenci>
+        <imie>Borys </imie>
+        <nazwisko>Szyc </nazwisko>
+        <indeks>102</indeks>
+      </studenci>
+      <studenci>
+        <imie>Witold </imie>
+        <nazwisko>Sruta </nazwisko>
+        <indeks>214</indeks>
+      </studenci>
+    </kierunek>
+  </wydzial>
+  <wydzial>
+    <nazwa>IMiR</nazwa>
+    <kierunek>
+      <kier_nazw>Automatyka i Robotyka</kier_nazw>
+      <studenci>
+        <imie>Jan </imie>
+        <nazwisko>Kowalski </nazwisko>
+        <indeks>255</indeks>
+      </studenci>
+      <studenci>
+        <imie>Marek </imie>
+        <nazwisko>Wisniewski </nazwisko>
+        <indeks>317</indeks>
+      </studenci>
+      <studenci>
+        <imie>Jaroslav </imie>
+        <imie>Mati </imie>
+        <nazwisko>Katchynski </nazwisko>
+        <indeks>200</indeks>
+      </studenci>
+    </kierunek>
+  </wydzial>
+  <wydzial>
+    <nazwa>IEiT</nazwa>
+    <kierunek>
+      <kier_nazw>Teleinformatyka</kier_nazw>
+      <studenci>
+        <imie>Jan </imie>
+        <nazwisko>Basek </nazwisko>
+        <indeks>256</indeks>
+      </studenci>
+      <studenci>
+        <imie>Alex </imie>
+        <nazwisko>Imanov </nazwisko>
+        <indeks>320</indeks>
+      </studenci>
+      <studenci>
+        <imie>Adam </imie>
+        <nazwisko>Eckel </nazwisko>
+        <indeks>299</indeks>
+      </studenci>
+    </kierunek>
+    <kierunek>
+      <kier_nazw>Elektronika i Telekomunikacja</kier_nazw>
+      <studenci>
+        <imie>Roman </imie>
+        <nazwisko>Norman </nazwisko>
+        <indeks>257</indeks>
+      </studenci>
+      <studenci>
+        <imie>Stafan </imie>
+        <nazwisko>Kraft </nazwisko>
+        <indeks>321</indeks>
+      </studenci>
+      <studenci>
+        <imie>Adam </imie>
+        <nazwisko>Malysz </nazwisko>
+        <indeks>356</indeks>
+      </studenci>
+    </kierunek>
+  </wydzial>
+</uczelnia>

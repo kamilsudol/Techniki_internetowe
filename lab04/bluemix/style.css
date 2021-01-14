@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(223, 223, 176);
+}
+
+fieldset{
+    background-color: rgb(97, 97, 146);
+    max-width: 20%;
+    margin: auto;
+    border: 2px solid;
+}
+
+.pole{
+    background-color: azure;
+    max-width: 90%;
+    border: 2px solid;
+}
+
+legend{
+    border: 2px solid;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px 26px;
+}
+input[type=submit]{
+    position: relative;
+    background-color: #ff1d1d;
+    border: none;
+    cursor: pointer;
+    padding: 10px 26px;
+    color: white;
+}
+
+input[type=text]{
+    margin: 5px;
+}
+.przycisk{
+    text-align: center;
+}

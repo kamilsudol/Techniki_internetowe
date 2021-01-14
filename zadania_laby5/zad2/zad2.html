@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>Zad2</title>
+<meta charset="utf-8">
+<script src='z2_skrypt1.js'></script>
+<script src='z2_skrypt2.js'></script>
+<link rel="stylesheet" href="styl_zad2.css">
+</head>
+    <body>
+        <form name="form1">
+        <p>Imię: (*pole wymagane)</p>
+        <input type="text" size="20" name="pole1" /><div id="err1"></div><br/>
+        <p>Nazwisko: (*pole wymagane)</p>
+        <input type="text" size="20" name="pole2" /><div id="err2"></div><br/>
+        <p>Adres e-mail: (*pole wymagane)</p> 
+        <input type="text" size="20" name="pole3" /><div id="err3"></div><br/>
+        <p>Rok studiów: (*pole wymagane)</p>
+        <select name="pole4">
+            <option value="0">Wybierz rok</option>
+            <option value="1">Rok 1</option>
+            <option value="2">Rok 2</option>
+            <option value="3">Rok 3</option>
+        </select><div id="err4"></div>
+        <p>Uwagi: (*pole niewymagane)</p>
+        <textarea name="pole5" rows="3" cols="25"></textarea><br/>
+        <input type="button" name="B1" value="Submit" onclick="validate()"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+applications:
+  - disk_quota: 20M
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    name: sudolTI2020-projekt1
+    path: .
+    instances: 1
+    memory: 20M
+    stack: cflinuxfs3

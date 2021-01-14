@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(141, 138, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+#home
+{   
+	max-width: 50%;
+	margin: auto;
+    height: 960px;
+    line-height: 1.4;
+}
+
+header{
+    background-color: rgb(73, 72, 72);
+    width: 100%;
+}
+nav{
+    margin: auto;
+    text-align: center;
+    color:white;
+    padding: 10px 26px;
+}
+a {
+    color:white;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: rgb(97, 97, 146);
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid;
+}
+
+.pole{
+    background-color: azure;
+    max-width: 98%;
+    border: 2px solid;
+}
+
+legend{
+    border: solid;
+    background-color: white;
+}
+
+input[type=button]{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    padding: 10px 26px;
+    color: white;
+    text-align: center;
+}
+
+input[type=text]{
+    margin: 5px;
+}
+.przycisk1 input[type=button] {
+    background-color: #1dff1d;
+}
+.przycisk2 input[type=button] {
+    background-color: #ff1d1d;
+}
+.przycisk3 input[type=button] {
+    background-color: #ff961d;
+}
+.przycisk4 input[type=button] {
+    background-color: #611dff;
+}
+canvas{
+    max-width: 100%;
+    margin: auto;
+}
+.rysunki{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border: 2px solid;
+}
+#instrukcja{
+    background-color: rgb(215, 215, 253);
+}
+#opisShow input[type=button] {
+    background-color: #92c9e9;
+}
+
+#opisShow{
+    text-align: center;
+}
+
+.przycisk1{
+    text-align: center;
+}
+.przycisk2{
+    text-align: center;
+}
+.przycisk3{
+    text-align: center;
+}
+.przycisk4{
+    text-align: center;
+}
+

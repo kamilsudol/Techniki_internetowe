@@ -1,0 +1,8 @@
+applications:
+  - disk_quota: 50M
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    name: sudolTI2020-zad04
+    path: .
+    instances: 1
+    memory: 50M
+    stack: cflinuxfs3

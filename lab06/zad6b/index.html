@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Zad 6b</title>
+      <meta charset="utf-8" />
+      <script src="ajax6b.js" type="text/javascript"></script>
+   </head>
+   <body>
+   <p>
+   <input type="button" value="Pierwszy zestaw" onclick="takeData(1, 'Option');"/>
+   <input type="button" value="Drugi zestaw" onclick="takeData(2, 'Option');"/>
+    <br/><br/>
+  <select id="Option" onChange="textChange('Option')">
+   <option>Kliknij jeden z przycisków</option>
+  </select>
+   </p>
+  <div id="textCh">
+     <p>Tu pojawi się wybrana opcja.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+applications:
+- buildpack: python_buildpack
+  name: sudolti2020-ajax
+  memory: 64MB
+  disk_quota: 256M  
+  command: python server.py

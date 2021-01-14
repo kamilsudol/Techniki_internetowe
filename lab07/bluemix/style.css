@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(241, 204, 204);
+}
+
+fieldset{
+    background-color: rgb(97, 97, 146);
+    max-width: 28%;
+    margin: auto;
+    border: 2px solid;
+}
+
+.pole{
+    background-color: azure;
+    max-width: 90%;
+    border: 2px solid;
+}
+
+legend{
+    border: solid;
+    background-color: white;
+}
+
+input[type=submit]{
+    position: relative;
+    background-color: #ff1d1d;
+    border: none;
+    cursor: pointer;
+    padding: 10px 26px;
+    color: white;
+}
+
+input[type=text]{
+    margin: 5px;
+}
+.przycisk{
+    text-align: center;
+}
+canvas{
+    margin: 10px;
+    box-shadow: 5px 10px;
+}
+.rysunki{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border: 2px solid;
+}
+
+table{
+    border: solid;
+    border-collapse: collapse;
+    border-style: outset;
+    border-color:black;
+    margin:5px;
+    padding-right:10px;
+}
+
+tr {
+    text-align: center; 
+    background-color:white;
+    line-height: 1.6;
+    padding-right:10px;
+}
+
+tr:nth-child(even) { 
+    background-color:gray;
+    line-height: 1.6;
+    padding-right:10px;
+}

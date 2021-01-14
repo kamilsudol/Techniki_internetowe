@@ -1,0 +1,42 @@
+table{
+    border-collapse: collapse;
+    border-style: outset;
+    border-color: darkblue;
+    margin:5px;
+    padding-right:10px;
+}
+
+th {
+    background: rgb(255, 255, 139);
+    padding-right:10px;
+}
+
+tr {
+    text-align: center; 
+    background-color: #8fb2c2;
+    line-height: 1.6;
+    padding-right:10px;
+}
+
+tr:nth-child(even) { 
+    background-color: rgb(216, 172, 209);
+    line-height: 1.6;
+    padding-right:10px;
+}
+
+.data{
+    width:150px;
+}
+
+.ip{
+    width:100px;
+}
+
+.autor{
+    width:100px;
+}
+
+.tytul{
+    width:100px;
+}
+

@@ -1,0 +1,37 @@
+.uczelnia {
+    border-style: outset;
+    margin: 5px;
+    display: block;
+    border-color: black;
+    width: 250px;
+}
+
+.nazwa{
+    background-color: rgb(71, 71, 94);
+    text-align:"center";
+    color: rgb(255, 255, 255);
+}
+
+.kier_nazw{
+    background-color: rgb(133, 133, 179);
+    text-align:"center";
+}
+
+tr{
+    background-color: rgb(125, 199, 153);
+    text-align:"left";
+}
+
+tr:nth-child(even){
+    background-color: #c4e2a4;
+    text-align:"left";
+}
+
+#fs{
+    border: 1px solid grey;
+    text-align:center; 
+    width:250px; 
+    margin:auto; 
+    background-color:#e6f2ff; 
+    font-weight:bold;
+}
