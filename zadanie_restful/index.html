@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Zadanie RESTful</title>
+    <meta charset="UTF-8">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <br>
+    <div class="container">
+        <fieldset id="formularz" class="text-center"> 
+          <form name="f1">
+            <button type="button\" class="btn btn-primary" onclick="Add(); return false;">Dodaj pomiar</button>
+            <button type="button\" class="btn btn-primary" onclick="Find(); return false;">Wyszukaj konkretne dane</button>
+            <button type="button\" class="btn btn-primary" onclick="Show(); return false;">Wszystkie dane</button>
+            <!-- <button type="button" class="btn btn-primary" onclick="Delete(); return false;">Usun wpis</button>
+            <button type="button" class="btn btn-primary" onclick="Mod(); return false;">Modyfikuj wpis</button> -->
+          </form>
+        </fieldset>
+    </div><br>
+    <div class="container text-center">
+        <div id="wyswietlacz"></div>
+    </div>
+    <script src="rest.js"></script>
+</body>
+</html>

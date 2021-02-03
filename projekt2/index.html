@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>SUDOL TI PROJEKT 2</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://pascal.fis.agh.edu.pl/~8sudol">SUDOL TI</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://pascal.fis.agh.edu.pl/~8sudol/projekt2">Strona domowa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="http://pascal.fis.agh.edu.pl/~8sudol/projekt2/projekt">Projekt</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="http://pascal.fis.agh.edu.pl/~8sudol/projekt2/dokumentacja.pdf">Dokumentacja</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container"><br>
+        <h1>TI Projekt 2</h1>
+        <article>
+            <h4>Zawartość merytoryczna projektu</h4>
+                <p>W ramach projektu opracowano prostą aplikację działająca po stronie przeglądarki w trybie on-line oraz off-line. W trybie off-line (bez połączenia z serwisem) możliwe jest zapisanie danych do lokalnej bazy danych dostępnej w przeglądarce. Dostępna jest również możliwość przeglądania zgromadzonych danych w systemie lokalnym przeglądarki. W trybie on-line (połączenie z serwerem) następuje przesłanie danych klienta do serwisu (dane lokalne po zapisaniu w serwisie są usuwane). Przesyłanie danych zrealizowano automatycznie - po połączeniu z serwerem aplikacja sama przesyła dane do bazy danych po stronie serwera. W trybie on-line istnieje możliwość wprowadzania danych do bazy oraz ich przeglądania. Wprowadzane dane są walidowane po stronie przeglądarki z wykorzystaniem języka Javascript. Połączenie z serwerem następuje po uwierzytelnieniu. Wprowadzane dane zawierają indeksy jednoznacznie identyfikujące wprowadzony rekord. Opracowany program w trybie on-line (połączenie z serwisem) posiada możliwość analizy danych (wyświetlanie danych w formie histogramów).</p>
+                <p>Całość znajduje się w zakładce "Projekt".</p>
+            <h4>Temat aplikacji</h4>
+                <p>Tematem aplikacji jest prosty program do zbierania danych ankietowych. Jako identyfikacje rekordów przyjęto numer rekordu, nazwę użytkownika, który wprowadza dane oraz datę dodania rekordu. Do analizy danych wykorzystano histogramy.</p>
+            <h4>Wykorzystane technologie</h4>
+                <p>Języki programistyczne wykorzystane po stronie serwera: php, a po stronie przeglądarki HTML5 oraz JavaScript. Technologie zastosowane w projekcie: dostęp do baz danych: server - MongoDB, przeglądarka - IndexedDB. Dostęp do serwisu zrealizowano poprzez logowanie, gdzie wykorzystano sesje. W projekcie wykorzystano szablony CSS udostępnione z technologii BootStrap.</p>
+            <h4>Połączenie pomiędzy klientem a serwerem WWW.</h4>
+                <p>Do połączenia pomiędzy klientem a serwerem WWW wykorzystano technologię RESTful.</p>
+            <h4>Walidacja projektu</h4>
+                <p>Strony poprawnie walidują się na stronie W3C zgodnie z standardem HTML5 i CSS 3.0.</p>
+                <p>Ze względów kompatybilności w celu obejrzenia projektu uprasza się o korzystanie z przeglądarki FireFox.</p>
+        </article>
+    </div>
+</body>
+</html>
